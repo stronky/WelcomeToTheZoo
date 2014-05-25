@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.appybirthdaysong.com"
+        versionCode = "1"
+        version     = "1.0.0">
+ 
+    <name>Welcome to the Zoo</name>
+ 
+    <description>
+        Thank you for visiting the 'Welcome to the Zoo' app! The drawings are made by Katrina. If you have any comments, you can send me an email. 
+    </description>
+ 
+    <author href="app.lk/theZoo" email="leonardstronkhorst@hotmail.com">
+        Leonard Stronkhorst
+    </author>
+ 
+    <feature name="http://api.phonegap.com/1.0/media"/>
+</widget>
