@@ -11,40 +11,60 @@
 <body>
 	<section id="page1" data-role="page">
 		<div data-role="content" class="content">
-			<img src="images/img01.png" alt="Lion">
-			<audio id="sound1" src="sounds/sound1.wav" type="audio/ogg"></audio>
+			<img src="images/img01.png" alt="Lion" onclick="document.getElementById('sound1').play()">
+			<audio id="sound1" controls style="display: none;">
+				<source src="sounds/sound1.wav" type="audio/mpeg">
+				<source src="sounds/sound1.mp3" type="audio/mpeg">
+				<source src="sounds/sound1.ogg" type="audio/ogg">
+			</audio>
 			<a href="#page2" data-role="button" data-icon="arrow-r" data-transition="slide">Go to Next Page</a>
 		</div>
 	</section>
 
 	<section id="page2" data-role="page">
 		<div data-role="content" class="content">
-			<img src="images/img02.png" alt="Dog">
-			<audio id="sound2" src="sounds/sound2.wav" type="audio/ogg"></audio>
+			<img src="images/img02.png" alt="Dog" onclick="document.getElementById('sound2').play()">
+			<audio id="sound2" controls style="display: none;">
+				<source src="sounds/sound2.wav" type="audio/mpeg">
+				<source src="sounds/sound2.mp3" type="audio/mpeg">
+				<source src="sounds/sound2.ogg" type="audio/ogg">
+			</audio>
 			<a href="#page3" data-role="button" data-icon="arrow-r" data-transition="slide">Go to Next Page</a>
 		</div>
 	</section>
 
 	<section id="page3" data-role="page">
 		<div data-role="content" class="content">
-			<img src="images/img03.png" alt="Buffalo">
-			<audio id="sound3" src="sounds/sound3.wav" type="audio/ogg"></audio>
+			<img src="images/img03.png" alt="Buffalo" onclick="document.getElementById('sound3').play()">
+			<audio id="sound3" controls style="display: none;">
+				<source src="sounds/sound3.wav" type="audio/mpeg">
+				<source src="sounds/sound3.mp3" type="audio/mpeg">
+				<source src="sounds/sound3.ogg" type="audio/ogg">
+			</audio>
 			<a href="#page4" data-role="button" data-icon="arrow-r" data-transition="slide">Go to Next Page</a>
 		</div>
 	</section>
 
 	<section id="page4" data-role="page">
 		<div data-role="content" class="content">
-			<img src="images/img04.png" alt="Rabbit">
-			<audio id="sound4" src="sounds/sound4.wav" type="audio/ogg"></audio>
+			<img src="images/img04.png" alt="Rabbit" onclick="document.getElementById('sound4').play()">
+			<audio id="sound4" controls style="display: none;">
+				<source src="sounds/sound4.wav" type="audio/mpeg">
+				<source src="sounds/sound4.mp3" type="audio/mpeg">
+				<source src="sounds/sound4.ogg" type="audio/ogg">
+			</audio>
 			<a href="#page5" data-role="button" data-icon="arrow-r" data-transition="slide">Go to Next Page</a>
 		</div>
 	</section>
 
 	<section id="page5" data-role="page">
 		<div data-role="content" class="content">
-			<img src="images/img05.png" alt="Goose">
-			<audio id="sound5" src="sounds/sound5.wav" type="audio/ogg"></audio>
+			<img src="images/img05.png" alt="Goose" onclick="document.getElementById('sound5').play()">
+			<audio id="sound5" controls style="display: none;">
+				<source src="sounds/sound5.wav" type="audio/mpeg">
+				<source src="sounds/sound5.mp3" type="audio/mpeg">
+				<source src="sounds/sound5.ogg" type="audio/ogg">
+			</audio>
 			<a href="#page1" data-role="button" data-icon="arrow-r" data-transition="slide">Go to Next Page</a>
 		</div>
 	</section>

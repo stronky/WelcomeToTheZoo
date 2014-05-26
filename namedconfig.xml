@@ -8,12 +8,11 @@
     <name>Welcome to the Zoo</name>
  
     <description>
-        Thank you for visiting the 'Welcome to the Zoo' app! The drawings are made by Katrina. If you have any comments, you can send me an email. 
+		Thank you for visiting the 'Welcome to the Zoo' app! The app shows drawings of different animals, such as a lion, a rabbit and a buffalo. If you touch an animal, it makes a noise ('ROAR!!!'). 
+		The drawings are made by Katrina. If you have any questions and/or comments, please send me an email. Have fun!
     </description>
  
-    <author href="app.lk/theZoo" email="leonardstronkhorst@hotmail.com">
-        Leonard Stronkhorst
-    </author>
+    <author href="app.lk/theZoo" email="leonardstronkhorst@hotmail.com">Leonard Stronkhorst</author>
  
     <feature name="http://api.phonegap.com/1.0/media"/>
 </widget>
