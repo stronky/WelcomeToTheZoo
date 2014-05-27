@@ -15,4 +15,7 @@
     <author href="app.lk/theZoo" email="leonardstronkhorst@hotmail.com">Leonard Stronkhorst</author>
  
     <feature name="http://api.phonegap.com/1.0/media"/>
+
+    <gap:plugin name="org.apache.cordova.media" />
+
 </widget>
